@@ -49,6 +49,7 @@
                         <a class="dropdown-item" href="#hobbit">Hobbit</a>
                         <a class="dropdown-item" href="#autor">Sobre o autor</a>
                         <a class="dropdown-item" href="#MM">Momentos Marcantes</a>
+                        <a class="dropdown-item" href="#crno">Cronologia</a>
                         <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
@@ -60,10 +61,10 @@
         </div>
     </nav>
 
-    <!-- Carrosel -->
+    <!-- Carrosel
     <br>
-    <!--Gambiarra-->
-    <br>
+   Gambiarra
+    <br> -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -111,12 +112,18 @@
         <div class="container">
             <div class="container-fluid">
                 <div class="row">
-                    <img class=" col-sm-12 col-md-6 col-lg-4" id="imgHobbit" src="./img/hobbit.svg">
-                    <div class=" col-sm-12 col-md-6 col-lg-8">
-                        <h1 >Hobbit</h1>
+                    <img class=" col-sm-12 col-md-12 col-lg-4" id="imgHobbit" src="./img/hobbit.svg">
+                    <div class=" col-sm-12 col-md-12 col-lg-8 p-4">
+                        <h1 class="display-4">Hobbit</h1>
                         <p>O Hobbit é uma história criada pelo gênio John Ronald Reuel Tolkien, conhecido
                             internacionalmente por J. R. R. Tolkien, O livro conta a jornada de Bilbo Bolseiro, e sua
                             jornada inexperada. Nela é contada a história de Bilbo</p>
+                        <!-- count -->
+                        <p> O livro foi publicado o ano de <span data-toggle="counter-up"
+                                class="text-primary">1937</span></p>
+                        <p>E o primeiro filme que deu inicio as histórias de Hobbit no cinema, foi lançado no ano de
+                            <span data-toggle="counter-up" class="text-primary">2012</span>, O Hobbit: Uma Jornada
+                            Inesperada </p>
                         <p>Bilbo Bolseiro vive uma vida tranquila e pacata em sua toca hobbit, até que um dia recebe a
                             visita do Mago Gandalf, que o convida para fazer parte de uma grande aventura. O hobbit,
                             entretanto, não gosta de nada que altere sua rotina, então recusa educadamente a oferta
@@ -130,38 +137,21 @@
         </div>
     </section>
     <br>
-    <!-- Tabela de Vendas 
-    <section class="HomeHist">
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-8 col-md-6 col-lg-6">
-                        <h1>Sobre o Autor</h1>
-                        <p>John Ronald Reuel Tolkien, , conhecido internacionalmente por J. R. R. Tolkien (1892-1973) É
-                            o renomado autor das obras como O Hobbit, O Senhor dos Anéis e O Silmarillion.</p>
-                        <p>Tornou-se professor, Filósofo e Comandante do Exército Britânico da Inglaterra</p>
-                        <p>Soas obras foram traduzids em mias de 50 idiomas e foram um sucesso. suas obra recebem o
-                            titulo de obra de arte da ficcção fantasiosa.</p>
-                    </div>
-                    <img id="imgTolkien"  src="./img/tolkien.png">
-                </div>
-            </div>
-    </section>-->
-    <br>s
     <!-- Sobre o Autor -->
     <section class="HomeHist" id="autor">
         <div class="container">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-8">
-                        <h1 >Sobre o Autor</h1>
+                    <div class="col-sm-12 col-12 col-lg-8 p-4">
+                        <h1 class="display-4">Sobre o Autor</h1>
                         <p>John Ronald Reuel Tolkien, , conhecido internacionalmente por J. R. R. Tolkien (1892-1973) É
                             o renomado autor das obras como O Hobbit, O Senhor dos Anéis e O Silmarillion.</p>
                         <p>Tornou-se professor, Filósofo e Comandante do Exército Britânico da Inglaterra</p>
                         <p>Soas obras foram traduzids em mias de 50 idiomas e foram um sucesso. suas obra recebem o
                             titulo de obra de arte da ficcção fantasiosa.</p>
+
                     </div>
-                    <img id="imgTolkien" class="col-sm-12 col-md-6 col-lg-4" src="./img/tolkien.png">
+                    <img id="imgTolkien" class="col-sm-12 col-md-12 col-lg-4" src="./img/tolkien.png">
                 </div>
             </div>
     </section>
@@ -170,47 +160,168 @@
     <section class="HomeHist" id="MM">
         <div class="container">
             <div class="container-fluid">
-                <h1 class="text-center" >Momentos Marcantes</h1>
+                <h1 class="text-center">Momentos Marcantes</h1>
 
                 <!-- Frase 1 e 2 -->
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 espaco">
-                        <h2 class="text-center">Bilbo e Gandalf </h2>
-                        <p>" - Bom dia! - disse Bilbo sinceramente. O sol brilhava, e a grama
-                            estava muito verde. Mas Gandalf lançou-lhe um olhar por baixo de suas longas e
-                            espessas sobrancelhas, que se projetavam da sombra da aba do chapéu. </p>
+                    <div class="col-sm-12 col-md-12 col-lg-12 p-4">
+                        <div class="card p-4">
+                            <div class="card-body">
+                                <h2 class="text-center card-title text-primary ">Bilbo e Gandalf </h2>
+                                <p class="card-text">" - Bom dia! - disse Bilbo sinceramente. O sol brilhava, e a grama
+                                    estava muito verde. Mas Gandalf lançou-lhe um olhar por baixo de suas longas e
+                                    espessas sobrancelhas, que se projetavam da sombra da aba do chapéu. </p>
 
-                        <p> - O que você quer dizer com isso? - perguntou ele. - Está me
-                            desejando um bom dia, ou quer dizer que o dia está bom não importa que eu
-                            queira ou não, ou quer dizer que você se sente bem neste dia, ou que este é um
-                            dia para se estar bem?" </p>
-                        <p>(Trecho de O Hobbit - J.R.R Tolkien)</p>
+                                <p class="card-text"> - O que você quer dizer com isso? - perguntou ele. - Está me
+                                    desejando um bom dia, ou quer dizer que o dia está bom não importa que eu
+                                    queira ou não, ou quer dizer que você se sente bem neste dia, ou que este é um
+                                    dia para se estar bem?" </p>
+                                <p class="card-text">(Trecho de O Hobbit - J.R.R Tolkien)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 espaco">
-                        <h2 class="text-center">Gandalf e Thorin Escudo de Carvalho </h2>
-                        <p>- Onde você foi, se me permite perguntar? - disse Thorin a Gandalf enquanto os dois
-                            cavalgavam.</p>
-                        <p>- Fui olhar à frente - disse ele.</p>
-                        <p> - E o que o trouxe de volta bem na hora?</p>
-                        <p> - O olhar para trás - disse ele</p>
-                        <p>(Trecho de O Hobbit - J.R.R Tolkien)</p>
+                    <div class="col-sm-12 col-md-12 col-lg-12 p-4">
+                        <div class="card p-4">
+                            <div class="card-body">
+                                <h2 class=" card-title text-center text-success">Gandalf e Thorin Escudo de Carvalho
+                                </h2>
+                                <p class="card-text">- Onde você foi, se me permite perguntar? - disse Thorin a Gandalf
+                                    enquanto os dois
+                                    cavalgavam.</p>
+                                <p class="card-text">- Fui olhar à frente - disse ele.</p>
+                                <p class="card-text"> - E o que o trouxe de volta bem na hora?</p>
+                                <p class="card-text"> - O olhar para trás - disse ele</p>
+                                <p class="card-text">(Trecho de O Hobbit - J.R.R Tolkien)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+    </section>
+    <!-- Tabela -->
+    <!--
+        <tr> Define uma linha
+        <th> Define um cabeçalho para a tabela
+        <td> Define uma cédula
+    -->
+    <section class="HomeHist" id="crno">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 p-4">
+                <div class="container">
+                    <div class="container-fluid">
+                        <div class="card p-4">
+                            <div class="card-body">
+                                <table class="table-active table-bordered table-hover table table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th class=" text-center" colspan="6"> Ordem Cronológica Universo Senhor
+                                                dos Aneis e Hobbit Nos Filmes</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                                    <th scope="row" class="p-3 text-center">1º</th>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <td class="text-center">O Hobbit: Uma Jornada Inesperada (
+                                                        <span data-toggle="counter-up" class="text-warning">2012</span>)
+                                                    </td>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <th scope="row" class="p-3 text-center">2º</th>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <td class="text-center">O Hobbit: A Desolação de Smaug (
+                                                        <span data-toggle="counter-up" class="text-warning">2013</span>
+                                                        )</td>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <th scope="row" class="p-3 text-center">3º</th>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <td class="text-center">O Hobbit: A Batalha dos Cinco Exércitos (
+                                                        <span data-toggle="counter-up" class="text-warning">2014</span>
+                                                        )</td>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <th scope="row" class="p-3 text-center">4º</th>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <td class="text-center">O Senhor dos Anéis: A Sociedade do Anel (
+                                                        <span data-toggle="counter-up" class="text-warning">2001</span>)
+                                                    </td>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <th scope="row" class="p-3 text-center">5º</th>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <td class="text-center">O Senhor dos Anéis: As Duas Torres( <span
+                                                            data-toggle="counter-up" class="text-warning">2002</span>
+                                                        )</td>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                        <tr>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <th scope="row" class="p-3 text-center">6º</th>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                                                    <td class="text-center">O Senhor dos Anéis: O Retorno do Rei (<span
+                                                            data-toggle="counter-up" class="text-warning">2003</span>)
+                                                    </td>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
     </section>
 
+    <!-- Criar um Site com Bootstrap - Criando Cars - Tabelas - Audio com HTML - Parte 10 
+         https://www.youtube.com/watch?v=gZtPRrggFqQ
+        -->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="./js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/counterup.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
 </body>
 
 </html>
