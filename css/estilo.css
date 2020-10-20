@@ -8,9 +8,10 @@ body{
 }
 /* Logo no NAvbar */
 #logo{
-    height: 10%;
-    width: 10%;
+   height: 3.5rem;
+   width: 4rem;
 }
+
 /* Cor Navbar Dropdown quando clica */
 a.cor-home{
     color: rgb(45, 135, 238);
@@ -22,17 +23,17 @@ a.cor-home{
 } 
 /* Espaço entre texto e carrosel */
 .HomeHist{
-    padding: 50px 50px;
+    padding: 15px 15px;
 }
 
 #MM{
     padding-bottom: 50px;
 }
 
-.espaco{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 h2{
     padding-bottom: 20px;
+}
+
+.esp{
+    padding-bottom:10px ;
 }
