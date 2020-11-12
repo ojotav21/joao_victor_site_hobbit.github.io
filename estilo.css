@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;    /*Rolamento lento*/
+}
+
+body{
+    background-color: rgb(227, 229, 231);
+    overflow: inherit;
+}
+/* Logo no NAvbar */
+#logo{
+   height: 3.5rem;
+   width: 4rem;
+}
+
+/* Cor Navbar Dropdown quando clica */
+a.cor-home{
+    color: rgb(45, 135, 238);
+}
+
+/* H1 das Sections */
+ h1{
+    padding-top: 50px;
+} 
+/* Espaço entre texto e carrosel */
+.HomeHist{
+    padding: 15px 15px;
+}
+
+#MM{
+    padding-bottom: 50px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.esp{
+    padding-bottom:10px ;
+}
+
+/* Centraliza os Anos no meio da cédula */
+.anoLanc{
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
