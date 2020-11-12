@@ -40,7 +40,6 @@ h2{
 
 /* Centraliza os Anos no meio da cédula */
 .anoLanc{
-    align-self: center;
     justify-content: center;
     display: flex;
 }
