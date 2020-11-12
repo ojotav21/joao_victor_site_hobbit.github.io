@@ -37,3 +37,9 @@ h2{
 .esp{
     padding-bottom:10px ;
 }
+
+/* Centraliza os Anos no meio da cédula */
+.anoLanc{
+    justify-content: center;
+    display: flex;
+}
