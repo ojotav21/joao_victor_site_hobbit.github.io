@@ -43,3 +43,24 @@ h2{
     justify-content: center;
     display: flex;
 }
+
+/* Card */
+.cardForms {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.192);
+    background-clip: border-box;
+    /* border: 1px solid rgba(0, 0, 0, 0.192); */
+    border-radius: 0.25rem;
+  }
+
+
+  /* Espaço entre Foorter e Forms */
+  #contato{
+      padding-bottom: 50px;
+  }

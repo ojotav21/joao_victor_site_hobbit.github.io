@@ -47,9 +47,13 @@
                         <a class="dropdown-item" href="#autor">Sobre o autor</a>
                         <a class="dropdown-item" href="#MM">Momentos Marcantes</a>
                         <a class="dropdown-item" href="#crno">Cronologia</a>
+                        <a class="dropdown-item" href="#capa">Capas Icônicas</a>
                         <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link cor-home" href="#contato">Contato <span class="sr-only"></span></a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#">Mais No</a>
@@ -224,9 +228,12 @@
     -->
     <section class="HomeHist p-4 align-content-center" id="crno">
         <div class="container">
-            <h1 class="text-center esp">Ordem Cronológica dos Filmes</h1>
-            <div class="">
-                <div class="">
+            <div class="row">
+                <h1 class="text-center esp col-sm-12 col-md-12 col-lg-12 text-primary ">Ordem Cronológica dos Filmes
+                </h1>
+            </div>
+            <div>
+                <div>
 
                     <!-- Início Tabela -->
                     <table class="table-active table-bordered table-hover table table-dark">
@@ -283,16 +290,92 @@
                                 <td><span data-toggle="counter-up" class="text-warning anoLanc">2003</span></td>
                             </tr>
                         </tbody>
-                        
+
                     </table>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Criar um Site com Bootstrap - Criando Cars - Tabelas - Audio com HTML - Parte 10 
-         https://www.youtube.com/watch?v=gZtPRrggFqQ
-        -->
+    <!-- Livros SISTEMA GRID -->
+    <section id="capa">
+        <div class="container">
+            <h1 class="text-primary text-center p-4"> Capas Icônicas do Hobbit</h1>
+            <div class="row">
+                <!-- Capa1 -->
+                <div class="col col-md-4 col-lg-4 text-center p-4">
+                    <img src="./img/capa1.jpg">
+                </div>
+
+                <!-- Capa2 -->
+                <div class="col col-md-4 col-lg-4 text-center p-4">
+                    <img src="./img/capa2.jpg">
+                </div>
+
+                <!-- Capa3 -->
+                <div class="col col-md-4 col-lg-4 text-center p-4">
+                    <img src="./img/capa3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forms Contato -->
+    <section id="contato">
+        <form class="p4 container">
+            <div class="p4">
+                <h1 class="text-center p-4"> Entre em Contato Conosco!</h1>
+                <div class="cardForms p4">
+                    <div class="card-body">
+                        <!-- Nome e Sobrenome -->
+                        <div class="form-row">
+                            <div class="form-group  col-sm-8 col-md-8 col-lg-8">
+                                <label for="inputEmail4">Nome</label>
+                                <input type="text" class="form-control" id="inputNome4" placeholder="Nome">
+                            </div>
+                            <div class="form-group col-sm-4 col-md-4 col-lg-4">
+                                <label for="inputEmail4">Sobrenome</label>
+                                <input type="text" class="form-control" id="inputNome4" placeholder="Sobrenome">
+                            </div>
+                        </div>
+
+                        <!-- Email e Telefone -->
+                        <div class="form-row">
+                            <div class="form-group col col-sm-12 col-md-12 col-lg-12">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"
+                                placeholder="Nos envie um feedback!"></textarea>
+                        </div>
+
+
+                        <!-- Botões -->
+                        <div class="form-row text-center">
+                            <div class="col col-md-6 col-lg-6">
+                                <button type="submit" class="btn btn-success text-center ">Enviar</button>
+                            </div>
+                            <div class="col col-md-6 col-lg-6">
+                                <button type="reset" class="btn btn-danger text-center">Apagat Tudo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white-50 p-4">
+        <div class="footer-copyright text-center py-3">&copy;2020 - Desenvolvido por João Victor Morais
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
